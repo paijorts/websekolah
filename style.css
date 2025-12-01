@@ -130,6 +130,7 @@
     margin-bottom: 38px;
     border: 1px solid rgba(255,255,255,0.03);
     transition: var(--trans-slow);
+    overflow: hidden;
     }
     .hero-kanan {
     background: rgba(255,255,255,0.03);
@@ -148,12 +149,13 @@
     }
     .hero-img {
     width: 50%;
-    min-width: 500px;
     border-radius: var(--radius-md);
+    height: auto;
     overflow: hidden;
     transition: var(--trans-slow);
     }
     .hero-img img {
+    height: 100%;
     width: 100%;
     display: block;
     object-fit: cover;
