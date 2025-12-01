@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SDIT Nurul Hayat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="nav-container">
+    <div class="left">
+        <img src="icon.png" class="logo" alt="logo">
+        <div class="title">
+        <h1>SDIT Nurul Hayat</h1>
+        <p>Jalan Kahuripan Raya No.7, Cibodas, Kota Tangerang</p>
+        </div>
+    </div>
+    <nav class="right">
+        <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="visimisi.html">Visi & Misi</a></li>
+        <li><a href="eskul.html">Ekstrakulikuler</a></li>
+        <li><a href="guru.html">Guru</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+    </div>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main class="main">
+    <!-- CARDS -->
+    <section class="cards-guru">
+        <article class="card">
+        <img src="guru1.jpg" alt="">
+        <div class="card-body">
+            <div class="card-title">Riana Setya</div>
+            <div class="card-excerpt">Wali Kelas Raudoh</div>
+        </div>
+        </article>
+        <article class="card">
+        <img src="guru2.jpg" alt="">
+        <div class="card-body">
+            <div class="card-title">Endah Novi</div>
+            <div class="card-excerpt">Wali Kelas Mekah</div>
+        </div>
+        </article>
+        <article class="card">
+        <img src="guru3.jpg" alt="">
+        <div class="card-body">
+            <div class="card-title">Melinda</div>
+            <div class="card-excerpt">Wali kelas Madinah</div>
+        </div>
+        </article>
+        <article class="card">
+        <img src="guru4.jpg" alt="">
+        <div class="card-body">
+            <div class="card-title">Nisfi Eka</div>
+            <div class="card-excerpt">Wali Kelas Arafah</div>
+        </div>
+        </article>
+        <article class="card">
+        <img src="guru5.jpg" alt="">
+        <div class="card-body">
+            <div class="card-title">Lily</div>
+            <div class="card-excerpt">Wali Kelas Shafa</div>
+        </div>
+        </article>
+        <article class="card">
+        <img src="guru6.jpg" alt="">
+        <div class="card-body">
+            <div class="card-title">Silvia</div>
+            <div class="card-excerpt">Wali Kelas Jabal Nur</div>
+        </div>
+        </article>
+        <article class="card">
+        <img src="guru7.jpg" alt="">
+        <div class="card-body">
+            <div class="card-title">Enjang Dwi</div>
+            <div class="card-excerpt">Kelas Jabal Rahmah</div>
+        </div>
+        </article>
+    </section>
+    </main>
+</body>
+<script>
+  function toggleMenu() {
+    document.querySelector(".right").classList.toggle("show");
+  }
+</script>
+</html>

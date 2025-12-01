@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SDIT Nurul Hayat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="nav-container">
+    <div class="left">
+        <img src="icon.png" class="logo" alt="logo">
+        <div class="title">
+        <h1>SDIT Nurul Hayat</h1>
+        <p>Jalan Kahuripan Raya No.7, Cibodas, Kota Tangerang</p>
+        </div>
+    </div>
+    <nav class="right">
+        <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="visimisi.html">Visi & Misi</a></li>
+        <li><a href="eskul.html">Ekstrakulikuler</a></li>
+        <li><a href="guru.html">Guru</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+    </div>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main class="main">
+    <!-- HERO -->
+    <section class="hero-kiri">
+        <div>
+        <h1>Selamat Datang di Website SDIT Nurul Hayat</h1>
+        <p>
+            Puji syukur ke hadirat ALLAH SWT atas karunia dan hidayah-NYA, sehingga website SDIT Nurul Hayat
+            telah hadir, Semoga dengan kehadiran website ini dapat memberikan manfaat kelancaran komunikasi dan
+            informasi antara Sekolah, Murid dan Orang tua / Wali Murid serta Masyarakat luas pada Umumnya.
+        </p>
+        </div>
+        <div class="hero-img">
+        <img src="halaman.jpg" alt="">
+        </div>
+    </section>
+    <!-- CARDS -->
+    <section class="cards">
+        <article class="card">
+        <img src="img4.jpg" alt="">
+        <div class="card-body">
+            <div class="card-date">15 September 2025</div>
+            <div class="card-title">Jambore</div>
+            <div class="card-excerpt">Kegiatan kemah untuk para siswa/i SDIT Nurul Hayat.</div>
+        </div>
+        </article>
+        <article class="card">
+        <img src="img2.jpg" alt="">
+        <div class="card-body">
+            <div class="card-date">9 November 2025</div>
+            <div class="card-title">Sholat Shubuh Bersama</div>
+            <div class="card-excerpt">Kegiatan sholat shubuh bersama di masjid SDIT Nurul Hayat setiap minggu pada awal bulan.</div>
+        </div>
+        </article>
+    </section>
+    </main>
+</body>
+<script>
+  function toggleMenu() {
+    document.querySelector(".right").classList.toggle("show");
+  }
+</script>
+</html>
